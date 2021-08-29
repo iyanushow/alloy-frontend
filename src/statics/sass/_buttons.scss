@@ -1,0 +1,19 @@
+.btn {
+  background: var(--default-color);
+  cursor: pointer;
+  padding: 0.9em 2em;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  box-shadow: 1px 2px 3px gray;
+  color: var(--text-color-sec);
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: block;
+  &:hover {
+    background-color: var(--default-darken);
+    transform: scale(1.05);
+
+    transition: all 0.2s ease-in-out;
+  }
+}

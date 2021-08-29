@@ -1,0 +1,9 @@
+html {
+  font-size: 10px;
+}
+
+.layout {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}

@@ -1,0 +1,9 @@
+@mixin color-combo($background) {
+  @if $background {
+    background: var(--default-color);
+    color: var(--text-color-sec);
+  } @else {
+    background: var(--bkg-color);
+    color: var(--text-color);
+  }
+}
