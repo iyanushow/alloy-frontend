@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-// import Burger from '../Burger/Burger';
-import styles from './stylesheet/Navigation.module.css';
-
 import { FaHome } from 'react-icons/fa';
 import { BsInfoCircle } from 'react-icons/bs';
 import { GiJumpAcross } from 'react-icons/gi';
@@ -70,30 +67,6 @@ const Navigation = () => {
           </ul> */}
         </StyledNav>
       </StyledHeader>
-      {/* <nav>
-        {mobile && (
-          <button
-            onClick={toggleBurger}
-            className={`${styles.burger} ${openNav && styles.burgerOpen}`}
-          >
-            <AiOutlineBars size={30} />
-          </button>
-        )}
-        <div className={`${styles.container} ${openNav ? styles.open : ''} `}>
-          <header>
-            {openNav && (
-              <button onClick={toggleBurger} className={styles.burger}>
-                <IoCloseSharp size={30} />
-              </button>
-            )}
-            <div>
-              <AiFillHome size='2.5em' />
-
-              <h2> Alloy</h2>
-            </div>
-          </header>
-        </div>
-      </nav> */}
     </>
   );
 };

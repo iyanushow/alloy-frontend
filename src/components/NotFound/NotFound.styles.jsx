@@ -1,6 +1,6 @@
-@import '../../../statics/sass/_buttons';
+import styled from 'styled-components';
 
-.content {
+export const StyledContent = styled.div`
   height: 100vh;
 
   h3 {
@@ -14,4 +14,4 @@
   h3 {
     margin: 3rem 0;
   }
-}
+`;
